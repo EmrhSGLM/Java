@@ -23,10 +23,10 @@ public class C01_WhileLoop {
 				System.out.print(bolen + " ");
 				sayac++;
 			}
-			bolen++;
-			
+			bolen++;			
 
 		}
+		
 		System.out.println("");
 		System.out.print(sayi + " sayisinin " + sayac + " adet tam boleni vardir");
 		

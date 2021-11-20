@@ -13,7 +13,7 @@ public class C06_ForLoop {
 		System.out.println("10 dan kucuk bir sayi giriniz : ");
 		int sayi=scan.nextInt();
 		
-		int faktoryel=1;
+		int faktoriyel=1;
 		
 		System.out.print(sayi+"! = "  );
 		
@@ -22,12 +22,12 @@ public class C06_ForLoop {
 		
 		for (int i = sayi; i > 1; i--) {
 			
-			faktoryel *= i;
+			faktoriyel *= i;
 			System.out.print(i+"*");
 			
 		}
 		
-		System.out.print("1 = " +faktoryel);
+		System.out.print("1 = " +faktoriyel);
 		scan.close();
 	}
 
