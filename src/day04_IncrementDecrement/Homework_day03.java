@@ -2,6 +2,7 @@ package day04_IncrementDecrement;
 
 public class Homework_day03 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		 //Soru 1:byte veri tipinde bir de�i�ken olu�turun, short, int, float, double data tiplerinde 

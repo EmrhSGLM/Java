@@ -21,7 +21,7 @@ public class C01_NestedIfElse {
 		
 		if (ilkKarakter=='A') {System.out.println("Gecerli sifre");
 			
-		} else { System.out.println("Gecersiz sifre");
+		} else { System.out.println(" Gecersiz sifre");
 			
 		}
 			

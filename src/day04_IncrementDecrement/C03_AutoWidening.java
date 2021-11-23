@@ -32,6 +32,7 @@ public class C03_AutoWidening {
 		float a=scan.nextFloat();
 		 short b=(short) a;
 		 System.out.println(b);
+		 scan.close();
 
 	}
 
