@@ -19,7 +19,7 @@ public class C05_Arrays {
 		System.out.println("Girilen cumlede " + kelimeler.length + " adet kelime var");
 		
 		System.out.println();
-		for (int i = kelimeler.length ; i >= 0 ; i--) {
+		for (int i = kelimeler.length-1 ; i >= 0 ; i--) {
 			System.out.print(kelimeler[i]+" ");
 		}
 		scan.close();
