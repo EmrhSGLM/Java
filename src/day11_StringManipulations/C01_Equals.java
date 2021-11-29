@@ -11,7 +11,7 @@ public class C01_Equals {
 		 char ch1 = 'K' ;
 		 char ch2 = 'K' + 0 ;
 		 
-		 System.out.println( ch1 == ch2 ); // true char variable lar matematiksel bir ifadeye girdiginde ascıı degerini kullanir 
+		 System.out.println( ch1 == ch2 ); // true char variable lar matematiksel bir ifadeye girdiginde ascï¿½ï¿½ degerini kullanir 
 		 
 		 String str1 = "Ali";
 		 String str2 = "Can";
@@ -22,8 +22,8 @@ public class C01_Equals {
 		 System.out.println(str4 == str3); // false
 		 System.out.println(str3.equals(str4)); // true
 		 
-		 // String variable larda == hem degere hemde referansına bakar dolayısıyl objeler farklı oldugunda 
-		 // genelde false döner
+		 // String variable larda == hem degere hemde referansï¿½na bakar dolayisiyla objeler farkli oldugunda 
+		 // genelde false doner
 		 // str1.equals(str2) referanslara degil sadece degere bakar
 		 // eger case sensitive olarak String degerleri ayni ise true doner
 		
