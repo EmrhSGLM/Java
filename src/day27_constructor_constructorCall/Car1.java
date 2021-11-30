@@ -18,6 +18,8 @@ public class Car1 {
 	// bu durumda kodlari duzeltmek icin Javanin sildigi default constructor yerine
 	// parametresiz bir constructor olusturmaliyim
 	
+	
+	
 	public Car1(){
 		
 	}
