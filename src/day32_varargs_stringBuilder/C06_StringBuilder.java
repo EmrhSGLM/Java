@@ -12,7 +12,7 @@ public class C06_StringBuilder {
 		StringBuilder sb = new StringBuilder("Yasasin Java");
 		
 		sb.append("!!!");
-		
+		sb.substring(3);
 		System.out.println(sb);
 		
 		sb.toString().toUpperCase(); // StringBuilder'i String'e cevirip String Manipulation kullanabiliriz

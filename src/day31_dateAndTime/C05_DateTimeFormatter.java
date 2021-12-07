@@ -20,7 +20,7 @@ public class C05_DateTimeFormatter {
 		
 		/*
 		 format olustururken
-		 GUn
+		 Gun
 		 d :    basta 0 varsa onu yazmadan gun numarasini yazar
 		 dd :   tek haneli gunleri 01 gibi basina 0 yazarak gun numarasi
 		 ddd :  yilin kacinci gunu
