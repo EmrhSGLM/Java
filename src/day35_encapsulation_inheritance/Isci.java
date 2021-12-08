@@ -7,6 +7,10 @@ public class Isci extends Muhasebe{
 	protected String meslegi;
 	protected String sendika;
 	
+	public Isci(){
+		System.out.println("Isci parametresiz constructor calisti");
+	}
+	
 	
 	public static void main(String[] args) {
 		

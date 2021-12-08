@@ -8,6 +8,10 @@ public class Personel {
 	protected String telNo;
 	protected int yas;
 	
+	Personel(){
+		System.out.println("Personel parametresiz constructor calisti");
+	}
+	
 	// eEger variable'lara access modifier yazmassak java access modifier olarak
 	// default acc. mod. atar boyle olunca sadece o package altindaki child class'lar
 	// Personal class'ini inherit edebilir
