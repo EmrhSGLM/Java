@@ -6,7 +6,7 @@ public class Animals {
 		
 		
 	}
-	// Overridden (Gecersiz Kilinmis)
+	// Overridden (Gecersiz Kilinmis)	
 	public void hareket() {
 		System.out.println("Tum hayvanlar hareket eder");
 	}
