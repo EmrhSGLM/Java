@@ -36,7 +36,7 @@ public class AbsUstaBasi extends AbsIsci{
 
 	@Override
 	public void abstractMethod() {
-		// TODO Auto-generated method stub
+		// Personel class'indan geldi
 		
 	}
 

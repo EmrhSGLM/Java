@@ -3,10 +3,10 @@ package day42_AbstractClasses;
 public abstract class AbsPersonel {
 	
 	
-	// Class ve nethodu abstract olarak tanimladigimda child class'lar mecburen
+	// Class ve methodu abstract olarak tanimladigimda child class'lar mecburen
 	// bu methodu override edecekler
 	
-	public abstract void statu();
+	public abstract void statu(); // abstract method'lara body yazilmaz
 	
 	public abstract void abstractMethod();
 	
