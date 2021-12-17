@@ -20,17 +20,19 @@ public class C01_Iterator {
 		System.out.println(liste); // [5, 3, 7, 1, 9, 8, 2]
 		
 		// index kullanmadan tum elemanlari 3 ekleyenmis olarak yazdirin
-		int i = 0;
+		
+		
 		for (Integer each : liste) {
-			each+=3;
-			liste.add(i, each);
-			i++;
-			//System.out.print(each+3 + " ");
+			
+			System.out.print(each+3);
+			
 		}
 		
 		System.out.println("");
 		System.out.println(liste); // [5, 3, 7, 1, 9, 8, 2]
 		
+		// for each loop ile index kullaamadan tum elementlere ulasabiliriz ama
+		// kalici degisiklik yapamiyoruz
 		
 
 	}
