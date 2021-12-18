@@ -22,7 +22,8 @@ public class C05_ListIterator {
 		ListIterator li1 = liste.listIterator();
 		String temp="";
 		
-		while (li1.hasNext()) {
+		while (li1.hasNext()) { // ileri gitmek icin kullanilir
+								// geri gitmek icin hasPrevious(); kullanilir
 			
 			temp=(String) li1.next();
 			li1.set(temp + "X");
