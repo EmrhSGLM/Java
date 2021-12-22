@@ -21,13 +21,16 @@ public class C03_exception {
 			int index=scan.nextInt();
 			
 			System.out.println("Girdiginiz index'de ki element : " + arr[index]);
-		} catch(ArrayIndexOutOfBoundsException e) {
+		
+		  } catch(ArrayIndexOutOfBoundsException e) {
+		 
 			System.out.println("Girdiginiz index array'de yok");
 			
-		} catch (InputMismatchException e) {
+		} /*catch (InputMismatchException e) {
 			System.out.println("Girdiginiz index pozitif tamsayi olmali");
 			
 		}
+	*/
 		
 		
 
